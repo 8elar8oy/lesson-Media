@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*!* html{*/
+        /*    font-size: 10px;!*устанавливаем 1 rem = 10px*!*/
+        /*    }*/
+        /*    .container{*/
+        /*        max-width: 1440px;!*для контейнера max width,(больше не может стать)*!*/
+        /*        font-size: 10px;!*устанавливаем 1 em = 10px*!*/
+        /*        !*width: 100%;*!*/
+        /*    }*/
+        /*    .container2{*/
+        /*        max-width: 1440px;!*для контейнера max width,(больше не может стать)*!*/
+
+        /*        !*width: 100%;*!*/
+        /*    }*/
+        /*    .item{*/
+        /*        !* width:100%;*!!*ширина для элементов контейнера(100% всего контейнера) не желательно*!*/
+        /*        font-size: 10rem;!*относительно html, 1 rem - 16 пикселей*!*/
+        /*    }*/
+        /*    .item1{*/
+        /*        font-size: 10vh;!*vh относительно размеров экрана*!*/
+        /*    }*/
+        /*    .item2{*/
+        /*        font-size: 10em;!*как rem = 16px, но зависит от родителя*!*/
+        /*    }*/
+        /*    .item3{}*/
+        *{
+            margin: 0;/*убираем дефолтные margin*/
+            padding: 0;/*убираем дефолтные padding*/
+        }
+        .header{
+            padding-top: 40px;
+            height: 755px  ;
+            background: linear-gradient();
+
+        }
+        .container{
+            max-width: 1440px;
+            margin: 0 auto;
+
+
+            border: 1px solid black;
+           /* margin: 20px;*//*можно использовать margin, будет применятся тк ниже по коду*/
+        }
+        .link a{
+            text-decoration: none;
+            color: #25468A;
+        }
+
+        .nav{
+            max-width:1120px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid black;
+        }
+        .navLinks{
+            width: 500px;
+            display: flex;
+            justify-content: space-between;
+
+            list-style-type: none;
+            margin-right: 20px ;
+
+        }
+        .textTitle{
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-family: "Roboto Thin";
+        }
+        .logoContainer{
+            display: flex;
+
+        }
+        .navmENU{
+            display: flex;
+        }
+        .btn{
+            padding: 9px 23px;
+            background-color: white;
+            border-radius: 24px;
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <div class="logoContainer">
+                    <img src="logo.png" alt="logo" ></img>
+                    <p class="textTitle">HandBrake</p>
+                </div>
+
+                <div class="navmENU">
+                    <ul class="navLinks"   >
+                        <li class="link"><a href="#">aaaa</a></li>
+                        <li class="link"><a href="#">bbb</a></li>
+                        <li class="link"><a href="#">vvv</a></li>
+                        <li class="link"><a href="#">ccc</a></li>
+                    </ul>
+                    <button class="btn"> загрузка</button>
+
+                </div>
+            </nav>
+        </header>
+
+
+
+
+
+
+
+
+
+    </div>
+<!--<div class="container">-->
+
+<!--    <div class="item">hello world</div>-->
+<!--    <div class="item1">hello world</div>-->
+<!--    <div class="item2">hello world</div>-->
+<!--    <div class="item3">hello world</div>-->
+<!--</div>-->
+<!--<div class="container2">-->
+
+<!--    <div class="item">hello world</div>-->
+<!--    <div class="item1">hello world</div>-->
+<!--    <div class="item2">hello world</div>-->
+<!--    <div class="item3">hello world</div>-->
+<!--</div>-->
+
+</body>
+</html>
